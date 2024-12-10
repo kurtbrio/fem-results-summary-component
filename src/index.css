@@ -1,3 +1,56 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* tailwind config */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* icons */
+.icon-memory::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 25px;
+  height: 25px;
+  background-image: url("/public/icon-memory.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.icon-reaction::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 25px;
+  height: 25px;
+  background-image: url("/public/icon-reaction.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.icon-verbal::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 25px;
+  height: 25px;
+  background-image: url("/public/icon-verbal.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.icon-visual::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1rem;
+  width: 25px;
+  height: 25px;
+  background-image: url("/public/icon-visual.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
