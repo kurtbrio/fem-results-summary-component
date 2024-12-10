@@ -54,3 +54,10 @@
   background-repeat: no-repeat;
   vertical-align: middle;
 }
+
+.custom-shadow {
+  --tw-shadow: 0 25px 50px -5px hsl(221, 100%, 96%);
+  --tw-shadow-colored: 0 25px 50px -5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}

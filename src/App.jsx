@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div className="flex justify-center md:items-center  font-primary text-lg text-blue-pale/65 min-w-screen max-h-screen w-full min-h-screen">
-      <div className="grid w-full shadow-2xl md:my-10 md:grid-cols-2 bg-white md:rounded-3xl h-full md:max-w-2xl">
+      <div className="grid w-full custom-shadow md:my-10 md:grid-cols-2 bg-white md:rounded-3xl h-full md:max-w-2xl">
         <div className="bg-gradient-to-b from-blue-light_slate md:rounded-3xl to-blue-light_royal rounded-b-3xl pt-5 pb-8 md:py-10 px-10 text-center">
           <h1 className="font-bold text-2xl">Your Result</h1>
           <div className="my-8 inline-block w-52 h-52 rounded-full bg-gradient-to-b from-blue-violet to-blue-persian">
